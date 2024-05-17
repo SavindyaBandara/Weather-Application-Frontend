@@ -1,0 +1,95 @@
+.title {
+    font-size: 23px;
+    font-weight: 700;
+  }
+  
+  .daily-item {
+    background-color: #b2e5e8;
+    border-radius: 15px;
+    height: 40px;
+    margin: 5px;
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    font-size: 14px;
+    padding: 5px 20px;
+  }
+  
+  .icon-small {
+    width: 60px;
+  }
+  
+  .daily-item .day {
+    cursor: inherit;
+    color: #212121;
+    flex: 1 1;
+    font-weight: 600;
+    margin-left: 15px;
+  }
+  
+  .description {
+    cursor: inherit;
+    flex: 1 1;
+    margin-right: 15px;
+    text-align: right;
+  }
+  
+  .min-max {
+    color: #000000;
+  }
+  
+  .daily-details-grid {
+    grid-row-gap: 0;
+    grid-column-gap: 1px;
+
+    column-gap: 10px;
+    display: grid;
+    flex: 1 1;
+    
+    padding: 5px 15px;
+    row-gap: 5px;
+    background-color: rgba(224, 227, 231, 0.841);
+    border-radius: 15px;
+  }
+  
+  .daily-details-grid-item {
+    align-items: center;
+    display: flex;
+    height: 30px;
+    justify-content: space-between;
+  }
+  
+  .daily-details-grid-item label:first-child {
+    color: #331e1e;
+    
+    
+  }
+  
+  .daily-details-grid-item label:last-child {
+    color: #212121;
+  }
+
+  .view-more-button {
+    background-color:rgba(229, 168, 69, 0.841);
+    font-weight: 600;
+    border-radius: 10px;
+    height: 30px;
+    margin: auto; /* Center the button horizontally */
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the button vertically */
+    font-size: 16px;
+    padding: 5px 20px;
+ 
+  }
+  .logout{
+    background-color:rgba(247, 246, 245, 0.841);
+    border-radius: 10px;
+    height: 30px;
+    margin: auto; /* Center the button horizontally */
+    display:flex;
+    align-items: right;
+    justify-content: right; /* Center the button vertically */
+    font-size: 16px;
+    
+  }

@@ -1,0 +1,35 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+.login-header {
+    font-family: 'Roboto', sans-serif;
+    font-size: xx-large;
+    margin: 3vh;
+    font-size: small;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  
+}
+
+
+.page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;  /* Make sure child elements stack vertically */
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo {
+    display: block;
+    margin: 0 auto 20px;  /* centers the image horizontally and adds a 20px margin at the bottom */
+    max-width: 100px;     /* change this value based on your preferred logo size */
+    height: auto;
+    background-color: rgba(39, 63, 108, 0.856);
+    border-radius: 300px;
+}
